@@ -1,0 +1,120 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+body {
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    height: 80vh;
+
+    align-items: center;
+
+}
+
+
+
+.title {
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #EEEEEE;
+    margin-bottom: 50px;
+
+}
+
+.text-div {
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #080001;
+}
+
+
+
+
+
+#home-count {
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 15px;
+
+
+}
+
+#guest-count {
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 15px;
+}
+
+.text-div {
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 82px;
+    gap: 0px;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0px;
+}
+
+.click-btn {
+
+    width: 45px;
+    height: 45px;
+    top: 271px;
+    left: 82px;
+    gap: 0px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    cursor: pointer;
+
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btn-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#reset-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #9AABD8;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
