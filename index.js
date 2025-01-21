@@ -52,3 +52,7 @@ reset.addEventListener('click', function () {
     document.querySelector("#home-count").innerText = count;
 }
 )
+
+function add(num1, num2){
+    return num1 + num2;
+}
