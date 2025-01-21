@@ -52,7 +52,3 @@ reset.addEventListener('click', function () {
     document.querySelector("#home-count").innerText = count;
 }
 )
-function increment(btnEl, team, num) {
-    count += num
-    btnEl.innerText = count
-}
